@@ -44,6 +44,19 @@ The system processes raw speech audio (`.flac`), performs transcription using **
 * Dev: 2,703 samples
 * Test: 2,620 samples
 
+## Dataset Setup
+
+The dataset is not included in this repository due to size limitations.
+
+To run the project:
+
+1. Download LibriSpeech dataset:
+   https://www.openslr.org/12/
+
+2. Place it in:
+   datasets/librispeech/
+
+3. Generate metadata files using provided scripts.
 ### Format
 
 ```
